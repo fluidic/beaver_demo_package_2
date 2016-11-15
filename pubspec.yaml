@@ -5,8 +5,9 @@ version: 0.0.1
 environment:
   sdk: '>=1.0.0 <2.0.0'
 
-#dependencies:
-#  lib_name: any
+dependencies:
+  beaver_demo_package_4:
+    git: https://github.com/fluidic/beaver_demo_package_4.git
 
 dev_dependencies:
   test: '>=0.12.0 <0.13.0'
